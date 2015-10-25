@@ -20,6 +20,7 @@
 
 ;;; Code:
 
+(load-file "queue.el")
 (require 'cl)
 (require 'queue)
 
@@ -212,5 +213,6 @@ If :default, don't produce an error but return the provided value."
 ;; End:
 
 (provide '@)
+
 
 ;;; @.el ends here
